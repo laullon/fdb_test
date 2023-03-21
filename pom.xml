@@ -24,6 +24,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <fdb.client>6.2.20</fdb.client>
   </properties>
 
   <dependencies>
@@ -36,7 +37,7 @@
       <dependency>
           <groupId>org.foundationdb</groupId>
           <artifactId>fdb-java</artifactId>
-          <version>7.2.3</version>
+	  <version>${fdb.client}</version>
       </dependency>
   </dependencies>
 </project>
